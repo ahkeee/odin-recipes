@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Open+Sans&display=swap');
+
+/*index.html design*/
+.index-main-header {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+}
+.hblue {
+    color: #0038A8;
+}
+.hyellow {
+    color: #FCD116;
+}
+.hred {
+    color: #CE1126;
+}
+
+.index-image-header {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pinoy-recipes {
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Archivo', sans-serif;
+    font-size: 22px;
+}
+
+.pinoy-recipes a {
+    text-decoration: none;
+}
+
+/*style for recipe page(chicken adobo)*/
+
+.adobo-image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.adobo {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*style for recipe page(chicken afritada)*/
+.chicken-afritada {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    font-size: 36px;
+}
+
+.afritada-image-header {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chickp {
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*style for recipe page(Caldereta)*/
+.caldereta-header {
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+    font-size: 36px; 
+}
+
+.caldereta-image {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.calstew {
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
