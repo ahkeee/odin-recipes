@@ -1,41 +1,191 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Open+Sans&display=swap');
 
-/*index.html design*/
-.index-main-header {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    text-align: center;
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*navigation*/
+
+.navigation {
     font-family: 'Archivo', sans-serif;
-}
-.hblue {
-    color: #0038A8;
-}
-.hyellow {
-    color: #FCD116;
-}
-.hred {
-    color: #CE1126;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
 }
 
-.index-image-header {
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pinoy-recipes {
-    text-align: center;
+ul {
+    display: flex;
     list-style-type: none;
-    font-family: 'Archivo', sans-serif;
+}
+
+li {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/*header-content*/
+
+.header {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    margin-bottom: -42px;
+    gap: 32px;
+    width: 100vw;
+}
+
+.header-content {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 42px;
+    width: 50%;
+}
+
+.header-info img {
+    width: 11px;
+}
+
+.header-info {
+    font-size: 12px;
+    margin-right: 32px;
+}
+
+.header-title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.header-image {
+    
+}
+
+.header-image img {
+    width: 850px;
+}
+
+/*Subscribe container*/
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.subscribe-content {
+    box-shadow: 0 0 8px #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 100px;
+    width: 75%;
+    background-color: #fff;
+}
+
+.subscribe-title {
     font-size: 22px;
 }
 
-.pinoy-recipes a {
-    text-decoration: none;
+.input-container input{
+    height: 42px;
+    width: 300px;
+    padding-left: 12px;
 }
 
-/*style for recipe page(chicken adobo)*/
+.btn button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    height: 41px;
+    width: 120px;
+}
+
+/*Card Container*/
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+.cards-container {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.cards {
+    width: 220px;
+}
+
+.picture {
+    box-shadow: 0 0 8px #cccccc;
+    width: 220px;
+    height: 280px;
+}
+
+.cards .title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-info {
+    font-size: 12px;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.card-info img {
+    width: 11px;
+}
+
+.card-info span {
+    margin-left: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 60px;
+    margin-top: auto;
+}
+
+.footer-title {
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*style for recipe page(chicken adobo)
 
 .adobo-image {
     width: 500px;
@@ -53,8 +203,9 @@
 p {
     font-family: 'Open Sans', sans-serif;
 }
+*/
 
-/*style for recipe page(chicken afritada)*/
+/*style for recipe page(chicken afritada)
 .chicken-afritada {
     font-family: 'Archivo', sans-serif;
     text-align: center;
@@ -74,8 +225,9 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
+*/
 
-/*style for recipe page(Caldereta)*/
+/*style for recipe page(Caldereta)
 .caldereta-header {
     font-family: 'Archivo', sans-serif;
     text-align: center;
@@ -95,3 +247,4 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
+*/
